@@ -567,7 +567,7 @@ section { padding: 130px 0; }
 
 .border-black{ border:1px solid #000}
 .border-thick{ border-width:2px !important }
-.border-white { border:1px solid #FFF}
+.border-white { border:1px solid #FFF; color: #FFF;}
 .border-top { border-top: 1px solid rgba(0,0,0,.1); }
 .border { border: 1px solid rgba(0,0,0,.1) !important}
 .border-right { border-right: 1px solid rgba(0,0,0,.1); }
@@ -590,7 +590,7 @@ section { padding: 130px 0; }
 .border-bottom-transperent-white { border-bottom: 1px solid rgba(255,255,255,.15) !important}
 .no-border-round {border-radius:0 !important}
 .round-border{border-radius: 50% !important }
-.img-border {border: 8px solid #fdd947; height: calc(100% - 40px); width: calc(100% - 40px); left: 20px; top: 20px;  position: absolute; }
+.img-border {border: 8px solid #fff !important; height: calc(100% - 40px); width: calc(100% - 40px); left: 20px; top: 20px;  position: absolute; }
 .img-border-medium {border: 5px solid #fdd947; height: calc(100% - 30px); width: calc(100% - 30px); left: 15px; top: 15px;  position: absolute;}
 .img-border-small {border: 4px solid #fdd947; height: calc(100% - 20px); width: calc(100% - 20px); left: 10px; top: 10px;  position: absolute;}
 
