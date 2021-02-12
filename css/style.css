@@ -614,7 +614,7 @@ section { padding: 130px 0; }
 .highlight-button:hover i {color:#fff}
 
 .highlight-button-dark { border:2px solid #00bb2b; display: inline-block; padding: 8px 20px 9px; font-size: 12px; color:#fff; background-color: #00bb2d;  }
-.highlight-button-dark:hover, .highlight-button-dark:focus { background-color: transparent; border: 2px solid #00bb2b; color:#9ABD56}
+.highlight-button-dark:hover, .highlight-button-dark:focus { background-color: transparent; border: 2px solid #00bb2b; color:#00bb2b;}
 .highlight-button-dark i { color: #fff}
 .highlight-button-dark:hover i {color:#000}
 
@@ -1202,7 +1202,7 @@ ul.list-line li span {min-width:130px; display:inline-block}
 .testimonial-style2 p{ font-size:13px; line-height:22px; color: #828282}
 .testimonial-style2 .name{ font-size:18px; display:block; width:100%; text-transform: uppercase; letter-spacing: 2px; color: #828282}
 .testimonial-style2 img { border-radius: 50%; border: 8px solid rgba(255,255,255,1)}
-.testimonial-style2-img:after {content:"\f10d"; font-family:'FontAwesome'; font-size: 55px; color: #614c45; position: absolute; right: 30px; top: 54px}
+.testimonial-style2-img:after {content:"\f10d"; font-family:'FontAwesome'; font-size: 55px; color: #00bb2b; position: absolute; right: 30px; top: 54px}
 .testimonial-style2 i.icon-extra-small {margin: 0 7px 0 0; font-size: 17px !important}
 
 /* ===================================
@@ -1625,7 +1625,7 @@ footer img {max-width: 156px;}
     Tattoo demo
 ====================================== */
 
-.section-top-pattern{background:url(../images/tattoo-icon-bg.jpg) no-repeat top center;}
+
 .tattoo-art-bg{ min-height: 710px;}
 .tattoo-art-title{ border: 7px solid #00bb2b;}
 .artist-info{ opacity: 0; height: 100%; width: 100%; background: rgba(255,255,255,0.9); padding: 15% 15% 0;}
@@ -1711,4 +1711,14 @@ footer img {max-width: 156px;}
 @media screen and (-webkit-min-device-pixel-ratio:0) {
     .fix-background-webkit{ background-attachment: scroll !important;}
     .no-transition-ipad *{ transition-timing-function: none; -moz-transition-timing-function: none; -webkit-transition-timing-function: none; -o-transition-timing-function: none; transition-duration: 0s; -moz-transition-duration: 0s; -webkit-transition-duration: 0s; -o-transition-duration: 0s; }
+}
+
+
+.linkss{
+    color: #00bb2b !important;
+}
+
+
+.linkss.active{
+    color: #00bb2b !important;
 }
